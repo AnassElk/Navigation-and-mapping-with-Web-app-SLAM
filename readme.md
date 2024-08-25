@@ -32,7 +32,7 @@ Pour démarrer le robot, exécutez la commande suivante au moment du démarrage 
 
 En cas de problème lors de l'exécution du ./start_script.sh , exécutez la commande suivant:
 ```bash
-./INF3995-104/kill.sh
+./kill.sh
 ```
 
 ## Fonctionnement
