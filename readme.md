@@ -1,7 +1,3 @@
-# Démonstrations vidéos
-
-Toutes les démonstrations vidéos des différentes fonctionnalités (simulation/robot-physique) sont disponibles au [lien suivant sur Google Drive](https://drive.google.com/drive/folders/1FRc0I4VLxESOACXQvV_2FOeH5X6hW15U?usp=sharing).
-
 # Application Web
 
 Le code de l'application Web se trouve dans le dossier "webApp" et est organisé en deux parties principales :
@@ -23,12 +19,12 @@ Le back-end est codé en Python en utilisant le framework Flask. Il est organis�
 
 Tous les fichiers nécessaires au fonctionnement des robots sont situés dans le répertoire suivant :
 ```bash
-./INF3995-104/embedded/agilex_ws
+./embedded/agilex_ws
 ```
 
 Pour démarrer le robot, exécutez la commande suivante au moment du démarrage :
 ```bash
-./INF3995-104/start_script.sh
+./start_script.sh
 ```
 
 En cas de problème lors de l'exécution du ./start_script.sh , exécutez la commande suivant:
