@@ -1,3 +1,6 @@
+# Project Description
+This project involves SLAM (Simultaneous Localization and Mapping) navigation and mapping using n Agilex Limo robots. The robots navigate and map a specific area and then send the data to a web application. This web application displays the maps and serves as the command center for the robots using ROS (Robot Operating System).
+
 # Application Web
 
 Le code de l'application Web se trouve dans le dossier "webApp" et est organisé en deux parties principales :
