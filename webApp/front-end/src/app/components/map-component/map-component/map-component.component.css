@@ -1,0 +1,43 @@
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;   
+}
+
+.canvas-wrapper {
+  position: relative;
+}
+
+#mapCanvas, #foregroundCanvas, #foregroundCanvas2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.foreground-canvas, .foreground-canvas2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#mapCanvas {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .canvas-container {
+    height: auto; 
+  }
+
+  .canvas-wrapper {
+    width: 100%;
+    max-width: none;
+    margin: auto;
+    margin-right: 15px; 
+  }
+}
+

@@ -1,0 +1,108 @@
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  background-color: grey;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.robot-info {
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 50%;
+}
+
+.log-box{
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  z-index: 2;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #8b1218;
+  color: #fff;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #d92231;
+  transform: scale(1.05);
+}
+
+.example-sidenav {
+  padding: 50px;
+  visibility: hidden;
+}
+
+.custom-slide-toggle {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  margin: 10px;
+  z-index: 2;
+}
+
+
+@media (max-width: 768px) {
+  .mission-container {
+    align-items: center;
+    justify-content: flex-start;
+    height: max-content;
+  }
+
+  .robot-info,
+  .log-box,
+  .button-container, 
+  .custom-slide-toggle {
+    position: static;
+    max-width: 100%;
+  }
+
+  .app-map-component {
+    position: absolute;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 80px;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+}
